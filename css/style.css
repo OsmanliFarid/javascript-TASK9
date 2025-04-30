@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+.box{
+    width: 300px;
+    height: 400px;
+}
+.BoxTitle{
+    color: blue;
+    font-size: 20px;
+}
+.BoxTitle2{
+    color: rgb(88, 109, 102);
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.BoxTitle3{
+    color: rgb(133, 132, 130);
+}
+.stars-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    color: blue;
+    font-size: 24px;
+}
+.HredBtn{
+    border-radius: 30px;
+    background-color: blue;
+    color: #fff;
+    padding: 15px 70px;
+}
+.DescBox{
+    display: flex;
+    align-items: center;
+gap: 30px;
+}
+.boxs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.priceBox{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.price2{
+    font-size: 20px;
+    text-decoration: line-through;
+}
