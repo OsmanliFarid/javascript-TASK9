@@ -1,7 +1,7 @@
 {
   "newestCourses": [
     {
-      "id": 1,
+      "id": "1",
       "title": "General English",
       "rating": 4.5,
       "price": 20,
@@ -14,7 +14,7 @@
       "description": "CEF Academy peşəkar inkişaf və fərdi bacarıqlarınızı"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Web Development",
       "instructor": "Ali Veliyev",
       "description": "Frontend development with React.js and more.",
@@ -27,20 +27,7 @@
       "companyName": "Cef Academy"
     },
     {
-      "id": 3,
-      "title": "Data Science",
-      "instructor": "Elvin Yusifov",
-      "description": "A complete guide to data analysis, machine learning, and AI.",
-      "rating": 4.8,
-      "time": "05:45:00",
-      "price": 60,
-      "discount": 70,
-      "courseType": 1,
-      "image": "/images/coursesimage.svg",
-      "companyName": "Jet Academy"
-    },
-    {
-      "id": 4,
+      "id": "4",
       "title": "Photography Basics",
       "instructor": "Leyla Akhundova",
       "description": "Learn the essentials of photography and how to master your camera.",
@@ -53,7 +40,7 @@
       "companyName": "Safavy"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "App Development",
       "instructor": "Fidan Aghayeva",
       "description": "Learn how to develop mobile apps with React Native.",
@@ -66,7 +53,7 @@
       "companyName": "Alas Academy"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Graphic Design",
       "instructor": "Samir Muradov",
       "description": "Learn the basics of graphic design using Adobe Illustrator.",
@@ -79,7 +66,7 @@
       "companyName": "Safavy"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Python Programming",
       "instructor": "Nigar Aliyeva",
       "description": "Master Python and develop real-world applications.",
@@ -92,17 +79,34 @@
       "companyName": "Code Academy"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Artificial Intelligence",
       "instructor": "Elnur Sadigov",
       "description": "Explore the world of AI and its real-life applications.",
-      "rating": 5.0,
+      "rating": 5,
       "time": "06:15:45",
       "price": 80,
       "discount": 90,
       "courseType": 0,
       "image": "/images/coursesimage.svg",
       "companyName": "Safavy"
+    },
+    {
+      "id": "b38e",
+      "image": "/images/coursesimage.svg",
+      "title": "32322sd",
+      "instructor": "dsjdijslkdjs",
+      "description": "sdkosjdl;js",
+      "price": "dsdosudosj"
+    },
+    {
+      "id": "b561",
+      "image": "/images/coursesimage.svg",
+      "title": "jdsjds",
+      "instructor": "odsojds",
+      "description": "odsjd",
+      "price": "4",
+      "rating": 4.5
     }
   ]
 }

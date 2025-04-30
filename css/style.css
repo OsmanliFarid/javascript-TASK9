@@ -34,12 +34,12 @@
     border-radius: 30px;
     background-color: blue;
     color: #fff;
-    padding: 15px 100px;
+    padding: 15px 80px;
 }
 .DescBox{
     display: flex;
     align-items: center;
-gap: 30px;
+    gap: 20px;
 }
 .boxs{
     display: grid;
@@ -53,4 +53,14 @@ gap: 30px;
 .price2{
     font-size: 20px;
     text-decoration: line-through;
+}
+.zibil_qabi{
+    margin-left: 10px;
+}
+form{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    input{
+        padding: 20px;
+    }
 }
