@@ -1,0 +1,108 @@
+{
+  "newestCourses": [
+    {
+      "id": "1",
+      "title": "General English",
+      "rating": 4.5,
+      "price": 20,
+      "discount": 0,
+      "courseType": 0,
+      "companyName": "Safavy",
+      "time": "06:33:03",
+      "instructor": "Menzer Mehdiyeva",
+      "image": "../images/coursesimage.svg",
+      "description": "CEF Academy peşəkar inkişaf və fərdi bacarıqlarınızı"
+    },
+    {
+      "id": "2",
+      "title": "Web Development",
+      "instructor": "Ali Veliyev",
+      "description": "Frontend development with React.js and more.",
+      "rating": 4.7,
+      "time": null,
+      "price": 40,
+      "discount": 50,
+      "courseType": 1,
+      "image": "../images/coursesimage.svg",
+      "companyName": "Cef Academy"
+    },
+    {
+      "id": "3",
+      "title": "Data Science",
+      "instructor": "Elvin Yusifov",
+      "description": "A complete guide to data analysis, machine learning, and AI.",
+      "rating": 4.8,
+      "time": "05:45:00",
+      "price": 60,
+      "discount": 70,
+      "courseType": 1,
+      "image": "../images/coursesimage.svg",
+      "companyName": "Jet Academy"
+    },
+    {
+      "id": "4",
+      "title": "Photography Basics",
+      "instructor": "Leyla Akhundova",
+      "description": "Learn the essentials of photography and how to master your camera.",
+      "rating": 4.3,
+      "time": "02:15:45",
+      "price": 30,
+      "discount": 35,
+      "courseType": 0,
+      "image": "../images/coursesimage.svg",
+      "companyName": "Safavy"
+    },
+    {
+      "id": "5",
+      "title": "App Development",
+      "instructor": "Fidan Aghayeva",
+      "description": "Learn how to develop mobile apps with React Native.",
+      "rating": 4.6,
+      "time": "04:00:30",
+      "price": 50,
+      "discount": 60,
+      "courseType": 1,
+      "image": "../images/coursesimage.svg",
+      "companyName": "Alas Academy"
+    },
+    {
+      "id": "6",
+      "title": "Graphic Design",
+      "instructor": "Samir Muradov",
+      "description": "Learn the basics of graphic design using Adobe Illustrator.",
+      "rating": 4.2,
+      "time": "03:20:10",
+      "price": 25,
+      "discount": 30,
+      "courseType": 0,
+      "image": "../images/coursesimage.svg",
+      "companyName": "Safavy"
+    },
+    {
+      "id": "7",
+      "title": "Python Programming",
+      "instructor": "Nigar Aliyeva",
+      "description": "Master Python and develop real-world applications.",
+      "rating": 4.9,
+      "time": "08:10:20",
+      "price": 55,
+      "discount": 65,
+      "courseType": 1,
+      "image": "../images/coursesimage.svg",
+      "companyName": "Code Academy"
+    },
+    {
+      "id": "8",
+      "title": "Artificial Intelligence",
+      "instructor": "Elnur Sadigov",
+      "description": "Explore the world of AI and its real-life applications.",
+      "rating": 5,
+      "time": "06:15:45",
+      "price": 80,
+      "discount": 90,
+      "courseType": 0,
+      "image": "../images/coursesimage.svg",
+      "companyName": "Safavy"
+    }
+  ]
+}
