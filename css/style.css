@@ -22,9 +22,9 @@
     color: rgb(133, 132, 130);
 }
 .stars-box{
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: space-between;
+    grid-template-columns: 170px 80px 70px;
 }
 .price{
     color: blue;
@@ -51,7 +51,7 @@
     gap: 30px;
 }
 .price2{
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: line-through;
 }
 .zibil_qabi{
