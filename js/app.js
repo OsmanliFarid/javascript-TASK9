@@ -15,28 +15,31 @@ const BoxShow = (url) => {
         } else {
           priceHTML = `<h1 class="price">${element.price}azn</h1>`
         }
-  
+        let instructor = element.instructor
         let imageElement = ''; 
         if (element.courseType === 0) {
           imageElement = `<img src="${newUrl}" alt="">`
-        } else if (element.courseType === 1) {
-          imageElement = `<img src="${newUrl}" alt="">`
+        }else if(element.courseType === 1){
+          instructor = element.companyName
         }
         Boxs.innerHTML += `
           <div class="box">
             <img src="${element.image}" alt="" class="Img">
             <h1 class="BoxTitle">${element.title}</h1>
-            <p class="BoxTitle2">${element.instructor}</p>
+            <p class="BoxTitle2">${instructor}</p>
             <p class="BoxTitle3">${element.description}</p>
             <div class="stars-box">
               <p class="StarsTitle">${element.rating}</p>
+              <div class="stars-box2">
               ${originalPriceHTML}
-              ${priceHTML}
+              ${priceHTML}</div>
             </div>
             <div class="DescBox">
               <button class="HredBtn">Etrafli</button>
+             <div class="DescBox2">
               <i class="fa-solid fa-trash zibil_qabi" onclick="EditShow('${element.id}', '${ENDPOINT}')"></i>
               ${imageElement}
+              </div>
             </div>
             
           </div>
@@ -62,7 +65,7 @@ submit.addEventListener("click",(e) =>{
     const title2 = document.querySelector("#title2")
     const title3 = document.querySelector("#title3")
     const title4 = document.querySelector("#title4")
-    const title5 = document.querySelector("#title5")
+    
     let newArr = {
         image: "../images/coursesimage.svg",
         title:title1.value,
@@ -77,4 +80,8 @@ submit.addEventListener("click",(e) =>{
         
         BoxShow(ENDPOINT)
     })
+    title1.value = ""
+    title2.value = ""
+    title3.value = ""
+    title4.value = ""
 })

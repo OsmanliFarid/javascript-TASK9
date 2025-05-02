@@ -22,9 +22,9 @@
     color: rgb(133, 132, 130);
 }
 .stars-box{
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    grid-template-columns: 170px 80px 70px;
 }
 .price{
     color: blue;
@@ -35,15 +35,19 @@
     background-color: blue;
     color: #fff;
     padding: 15px 80px;
+    border: none;
+    font-weight: 700;
 }
 .DescBox{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 20px;
 }
 .boxs{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    justify-items: center;
 }
 .priceBox{
     display: flex;
@@ -52,7 +56,9 @@
 }
 .price2{
     font-size: 16px;
-    text-decoration: line-through;
+    margin-top: 3px;
+    text-decoration: line-through red;
+    
 }
 .zibil_qabi{
     margin-left: 10px;
@@ -63,4 +69,14 @@ form{
     input{
         padding: 20px;
     }
+}
+.stars-box2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.DescBox2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
