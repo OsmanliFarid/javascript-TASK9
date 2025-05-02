@@ -1,9 +1,10 @@
 const Boxs = document.querySelector("#Boxs")
-const ENDPOINT = "http://localhost:3001/newestCourses"
+const ENDPOINT = "http://localhost:3000/newestCourses"
 const newUrl = "https://safavy-new.vercel.app/_next/static/media/shopicon.ec7427ea.svg"
 const submit = document.querySelector("#submit")
 const BoxShow = (url) =>{
   axios.get(url).then(({data}) =>{
+    Boxs.innerHTML = ""
     data.forEach(element => {
         if(element.courseType == 0){
             if(element.discount != 0){
